@@ -1,0 +1,8 @@
+Parent ID,Parent First Name,Parent Last Name,E-Mail,Mobile Phone Number,Address Line 1,City,State,Post/Zip Code,Country,Student 1 ID,Student 1 First Name,Student 1 Last Name,Student 1 Grade,Student 2 ID,Student 2 First Name,Student 2 Last Name,Student 2 Grade,Student 3 ID,Student 3 First Name,Student 3 Last Name,Student 3 Grade,Student 4 ID,Student 4 First Name,Student 4 Last Name,Student 4 Grade
+P001,Paige,Adams,momparent@example.com,(222) 222-2220,10  South Main Street,Greenville,SC,29601,USA,S001,Charlie,Adams,7,,,,,,,,,,,,
+P002,James,Adams,dadparent@example.com,(222) 222-2224,10  South Main Street,Greenville,SC,29601,USA,S001,Charlie,Adams,7,,,,,,,,,,,,
+P003,Pamela,Bradbury,anotherperson@example.com,(222) 222-2225,10 East Broad Street,Greenville,SC,29601,USA,S002,Margaret,Bradbury,12,S003,Noah,Bradbury,10,,,,,,,,
+P004,Vikki,Look,parent1look-smith@example.com,(222) 222-2226,200 Lois St,Greenville,SC,29601,USA,S004,Lana,Smith,12,S005,Taylor ,Smity,7,S006,Timothy ,Smith,5,S007,Samuel,Smith,3
+P005,Joe,Smith,parent2look-smith@example.com,(222) 222-2227,200 Lois St,Greenville,SC,29601,USA,S004,Lana,Smith,12,S005,Taylor,Smith,7,S006,Timothy,Smith,5,S007,Samuel,Smith,3
+P006,Anna ,Berry ,seperatedparent1@example.com,(222) 222-2221,100 Main St,Greenville,SC,29601,US,S008,Hayden ,Brooks,8,,,,,,,,,,,,
+P007,David ,Brooks,seperatedparent2@example.com,(222) 222-2223,240 Marygold,Greenville ,Sc,29061,USA,S008,Hayden ,Brooks,8,,,,,,,,,,,,

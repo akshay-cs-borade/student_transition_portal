@@ -1,0 +1,35 @@
+<!-- app/views/students/index.html.erb -->
+
+<h1>Uploaded Students</h1>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Student ID</th>
+      <th>Student Name</th>
+      <th>Grade</th>
+      <th>Family (Parent Email)</th>
+      <th>Parent Name</th>
+      <th>Mobile</th>
+      <th>Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @students.each do |student| %>
+      <tr>
+        <td><%= student.student_id %></td>
+        <td><%= student.name %></td>
+        <td><%= student.grade %></td>
+        <td><%= student.family.email %></td>
+        <td><%= "#{student.family.parent_first_name} #{student.family.parent_last_name}" %></td>
+        <td><%= student.family.mobile %></td>
+        <td><%= student.family.address %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to "Upload New CSV", new_import_path %> |
+<%= link_to "View Uploads", imports_path %>

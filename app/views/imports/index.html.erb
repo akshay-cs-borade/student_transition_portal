@@ -1,0 +1,41 @@
+<h1>CSV Uploads</h1>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Status</th>
+      <th>Error Report</th>
+      <th>Completed Report</th>
+      <th>Uploaded At</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @csv_uploads.each do |upload| %>
+      <tr>
+        <td><%= upload.id %></td>
+        <td><%= upload.status.capitalize %></td>
+        <td>
+          <% if upload.error_report_file.attached? %>
+            <%= link_to "Download", rails_blob_path(upload.error_report_file, disposition: "attachment"), class: "btn btn-sm btn-danger" %>
+          <% else %>
+            -
+          <% end %>
+        </td>
+        <td>
+          <% if upload.completed_report_file.attached? %>
+            <%= link_to "Download", rails_blob_path(upload.completed_report_file, disposition: "attachment"), class: "btn btn-sm btn-success" %>
+          <% else %>
+            -
+          <% end %>
+        </td>
+        <td><%= upload.created_at.strftime("%d %b %Y %H:%M") %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to "Upload New CSV", new_import_path %> |
+<%= link_to "View Students", students_path %>

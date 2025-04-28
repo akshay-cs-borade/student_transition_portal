@@ -1,0 +1,12 @@
+<h1>Upload CSV</h1>
+
+<%= form_with model: @csv_upload, url: imports_path, local: true, html: { multipart: true } do |form| %>
+  <div>
+    <%= form.file_field :csv_file %>
+  </div>
+  <div>
+    <%= form.submit "Upload" %>
+  </div>
+<% end %>
+
+<%= link_to "View Uploads", imports_path %>
