@@ -151,6 +151,8 @@ https://github.com/user-attachments/assets/314e2644-9d97-4980-9497-884dd373453e
 ![StudentTransitionPortal-04-29-2025_12_13_AM](https://github.com/user-attachments/assets/944bf205-f588-400a-93a0-87bf03e0f398)
 ![StudentTransitionPortal-04-29-2025_12_13_AM (1)](https://github.com/user-attachments/assets/10bf6fd8-cdc8-4956-83f7-317410e9be82)
 ![StudentTransitionPortal-04-29-2025_12_13_AM (2)](https://github.com/user-attachments/assets/fab374f6-6227-4c90-8396-efccc6191ee4)
+![-DEVELOPMENT-Sidekiq-04-29-2025_12_54_AM](https://github.com/user-attachments/assets/a4d9329c-0171-49c3-9bd0-45a691ee66cc)
+
 
 
 ## 🤝 Author
