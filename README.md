@@ -119,22 +119,6 @@ Inside `/sample_csvs/`:
 
 ---
 
-## 🛡 Transaction Management
-
-- CSV processing is **fully transactional**.
-- If even one row fails during processing ➔ **entire upload rolls back**.
-- No partial Families or Students created.
-
----
-
-## 🔁 Retry Policy for Jobs
-
-- CsvProcessingJob retries **up to 5 times** on failures.
-- Retry backoff: 30s, 1m, 3m, then 10m intervals.
-- Full error backtraces visible inside Sidekiq dashboard.
-
----
-
 ## ✅ Key Business Rules Implemented
 
 | Rule | Enforced? |
